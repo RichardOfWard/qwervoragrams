@@ -1,7 +1,7 @@
 Qwervoragrams
 =============
 Qwervoragrams are (I have decided) sets of word that can be typed on
-(at least) two different keyboards layouts using the same keystrokes.
+(at least) two different keyboard layouts using the same keystrokes.
 
 The word is a portmanteau of 'qwerty', 'Dvorak', and 'anagram'.
 

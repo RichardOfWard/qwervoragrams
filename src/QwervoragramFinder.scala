@@ -8,11 +8,11 @@ class QwervoragramFinder(words: Set[String]) {
 
   def find =
     sanitizedWords
-      .filter(word => wordHasQwervorogram(word))
+      .filter(word => wordHasQwervoragram(word))
       .toList.sortBy(-_.length)
       .map(word => new Pair(word, qwertyWordToDvorakWord(word)))
 
-  private def wordHasQwervorogram(word: String): Boolean = {
+  private def wordHasQwervoragram(word: String): Boolean = {
     words.contains(qwertyWordToDvorakWord(word))
   }
 

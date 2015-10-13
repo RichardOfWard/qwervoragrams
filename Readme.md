@@ -5,8 +5,8 @@ Qwervoragrams are (I have decided) sets of word that can be typed on
 
 The word is a portmanteau of 'qwerty', 'Dvorak', and 'anagram'.
 
-This repo contains a scala application that finds qwervorograms from a
-file containing a list of words. It only finds qwerty-Dvorak qwervorograms.
+This repo contains a scala application that finds qwervoragrams from a
+file containing a list of words. It only finds qwerty-Dvorak qwervoragrams.
 
 
 Findings
@@ -47,7 +47,7 @@ Full output from the application can be found in the file `output/qwerverograms.
 
 Future research
 ---------------
-Investigation into qwervorogram phrases or sentences, or
+Investigation into qwervoragram phrases or sentences, or
 even runnable source code may be interesting.
 
 Or pointless.

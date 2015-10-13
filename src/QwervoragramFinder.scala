@@ -12,9 +12,7 @@ class QwervoragramFinder(words: Set[String]) {
       .toList.sortBy(-_.length)
       .map(word => new Pair(word, qwertyWordToDvorakWord(word)))
 
-  private def wordHasQwervoragram(word: String): Boolean = {
-    words.contains(qwertyWordToDvorakWord(word))
-  }
+  private def wordHasQwervoragram(word: String) = words.contains(qwertyWordToDvorakWord(word))
 
-  private def qwertyWordToDvorakWord(word: String): String = word.map(qwertyKeypressToDvorakKeypress)
+  private def qwertyWordToDvorakWord(word: String) = word.map(qwertyKeypressToDvorakKeypress)
 }

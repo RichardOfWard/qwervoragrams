@@ -8,7 +8,7 @@ class QwervoragramFinder(words: Set[String]) {
 
   def find =
     sanitizedWords
-      .filter(word => wordHasQwervoragram(word))
+      .filter(wordHasQwervoragram)
       .toList.sortBy(-_.length)
       .map(word => new Pair(word, qwertyWordToDvorakWord(word)))
 
